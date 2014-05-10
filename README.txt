@@ -1,0 +1,43 @@
+pyBE
+====
+
+Python Battleye Log + Rcon Tools
+
+
+A small group of simple python scripts to help with arma3.
+
+pyBE_chatbot.py:
+  * Simple rcon bot code unfinished, framework is in place.
+    Does nothing atm...
+    
+    Look @ http://www.bigbrotherbot.net/ if u are looking for an arma2/3 rcon bot
+    
+pyBE_raw.py
+  * Simple python script to send server an rcon command.
+      Look @ https://github.com/marceldev89/BattleNET/blob/master/BattleNET/BattlEyeCommand.cs
+      i.e python pyBE_raw.py "say -1 Server Restart 10mins"
+      
+pyBE_rawFile.py
+  * Similar to pyBE_raw.py, but parsers a text file to send server multiple rcon commands.
+      i.e python pyBE_rawFile.py "examples/rawFile.example"
+
+Todo:
+Upload newer simple pyBEscanner here + close old repo
+      
+
+Requirements
+	Python 2.7
+
+Thanks for 
+  *People mentioned for help/work on pyBEscanner
+  *Nanomo for creating the c# app for kicking players
+  *k4n30 for updating the rules & finding my mistakes
+  *ziellos2k for creating the BattleNET C# library
+
+
+  *Python rcon code
+  *http://www.bigbrotherbot.net/
+  *For making a brillant gpl rcon code.
+  *Check out thier site, thier program alot more advanced for a chatbot + has various plugins.
+
+
