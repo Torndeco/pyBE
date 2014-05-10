@@ -14,7 +14,6 @@ pyBE_chatbot.py:
     
 pyBE_raw.py
   * Simple python script to send server an rcon command.
-      Look @ https://github.com/marceldev89/BattleNET/blob/master/BattleNET/BattlEyeCommand.cs
       i.e python pyBE_raw.py "say -1 Server Restart 10mins"
       
 pyBE_rawFile.py
@@ -38,6 +37,8 @@ Thanks for
   *Python rcon code
   *http://www.bigbrotherbot.net/
   *For making a brillant gpl rcon code.
-  *Check out thier site, thier program alot more advanced for a chatbot + has various plugins.
+  *Check out thier site
+  *There bot is alot more advanced for a chatbot + has various plugins.
+  *Also supports multiple games
 
 
